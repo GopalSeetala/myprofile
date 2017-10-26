@@ -1,141 +1,15 @@
 <article id="portfolio">
   <div class="row-fluid" id="screenshots">
-    
-    <h2 class="page-title scroll_up">
+    <h2 class="page-title">
       Portfolio
-      <a href="#home" class="arrow-top" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'arrow', 'Clicked']);">
-        <img src="img/arrow-top.png" alt="Arrowtop">
-      </a>
     </h2>
    <div class="clear"></div> 
-    <!-- PORTFOLIO IMAGES ROW 1-->
-    <ul class="thumbnails">
-      <li class="span3">
-        <a href="img/big/pic1.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'MOT', 'Clicked']);">
-        
-          <img src="img/thumbs/p1.jpg" alt="Ministry of Transport">
-        </a>
-        <span>Ministry of Transport</span>
-      </li>
-      
-      <li class="span3">
-        <a href="img/big/pic15.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'MOT-mobile', 'Clicked']);">
-          <img src="img/thumbs/p15.jpg" alt="Ministry of Transport - Mobile">
-        </a>
-        <span>Ministry of Transport - Mobile</span>
-      </li>
-      
-      <li class="span3">
-        <a href="img/big/pic2.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'BFC', 'Clicked']);">
-          <img src="img/thumbs/p2.jpg" alt="Businesses for Families Council">
-        </a>
-        <span>Businesses for Families Council</span>
-      </li>
-      
-      <li class="span3">
-        <a href="img/big/pic4.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'HellaStudio', 'Clicked']);">
-          <img src="img/thumbs/p4.jpg" alt="Hella Studio">
-        </a>
-        <span>Hella Studio</span>
-      </li>
-    </ul>
-    
-      
-      <!-- PORTFOLIO IMAGES ROW 2-->
-      
-      <ul class="thumbnails">
+      <ul *ngFor="let thumbnail of thumbnails">
         <li class="span3">
-          <a href="img/big/pic19.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'NUS', 'Clicked']);">
-             <img src="img/thumbs/p19.jpg" alt="NUS - Business School">
+          <a href="img/big/pic1.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'Humira', 'Clicked']);">
+             <img src="img/thumbs/p11.jpg" alt="{{thumbnail.title}}">
           </a>
-          <span>NUS - Business School</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic6.jpg" rel="gallery" class="thumbnail">
-             <img src="img/thumbs/p6.jpg" alt="Workplace saftey and health Council">
-          </a>
-          
-          <span>Workplace saftey and health Council</span>
-        </li>
-        
-         <li class="span3">
-          <a href="img/big/pic17.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'eCitizen', 'Clicked']);">
-             <img src="img/thumbs/p17.jpg" alt="eCitizen">
-          </a>
-          <span>eCitizen</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic16.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'eCitizen-Mobile', 'Clicked']);">
-             <img src="img/thumbs/p16.jpg" alt="eCitizen - Mobile">
-          </a>
-         <span>eCitizen - Mobile</span>
-        </li>
-        
-       
-      </ul>
-       <!-- PORTFOLIO IMAGES ROW 3-->
-      
-      <ul class="thumbnails">
-        <li class="span3">
-          <a href="img/big/pic18.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'Clean-Green', 'Clicked']);">
-             <img src="img/thumbs/p18.jpg" alt="Clean and Green Singapore">
-          </a>
-          <span>Clean & Green </span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic5.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'OpenNet', 'Clicked']);">
-             <img src="img/thumbs/p5.jpg" alt="OpenNet">
-          </a>
-            <span>OpenNet</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic7.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'SGChangi', 'Clicked']);">
-             <img src="img/thumbs/p7.jpg" alt="SG Changi">
-          </a>
-         <span>SG Changi</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic14.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'SCDF', 'Clicked']);">
-             <img src="img/thumbs/p14.jpg" alt="Singapore Civil Defence Force">
-          </a>
-          <span>Singapore Civil Defence Force</span>
-        </li>
-      </ul>
-      
-       <!-- PORTFOLIO IMAGES ROW 4-->
-      
-      <ul class="thumbnails">
-        <li class="span3">
-          <a href="img/big/pic11.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'GVEC', 'Clicked']);">
-             <img src="img/thumbs/p11.jpg" alt="Guadalupe Valley Electric Cooperative">
-          </a>
-          <span>GVEC</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic12.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'Infolab', 'Clicked']);">
-             <img src="img/thumbs/p12.jpg" alt="Info Lab">
-          </a>
-            <span>Info Lab</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic3.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'LemonTreeGroup', 'Clicked']);">
-             <img src="img/thumbs/p13.jpg" alt="Lemon Tree Group">
-          </a>
-          <span>Lemon Tree Group</span>
-        </li>
-        
-        <li class="span3">
-          <a href="img/big/pic10.jpg" rel="gallery" class="thumbnail" onClick="_gaq.push(['_trackEvent', 'Portfolio', 'Humira', 'Clicked']);">
-             <img src="img/thumbs/p10.jpg" alt="Humira">
-          </a>
-            <span>Humira</span>
+            <span>{{thumbnail.title}}</span>
         </li>
       </ul>
   </div>
